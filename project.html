@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html">
+
+<head>
+    <title>Daily slogan service</title>
+    <style>
+        body
+        {
+        margin: 0px;
+        padding: 0px;
+        background: url("https://i.ytimg.com/vi/mGx_FATyasQ/maxresdefault.jpg");
+        background-repeat: no-repeat; /* stop image from repeating*/
+        background-size: cover;      /*fits image completely*/
+        color: white;
+        }
+        .left
+        {
+            display: inline-block;
+          /*  border: 2px solid red;*/
+            position: absolute;
+            left: 34px;
+            top: 31px;
+ 
+        }
+        .left img
+        {
+        width: 150px;
+        height: 110px;
+
+        }
+        .left div 
+        {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+        }
+        .mid 
+        {
+            display: block;
+            width: 40%;
+       /*     border: 2px solid blue;*/
+            margin-top: 31px;
+            margin-left: 623px;
+        }
+
+       .right 
+       {
+            position: absolute;
+            right: 34px;
+            top: 30px;
+            display: inline-block;
+        /*    border: 2px solid yellow;*/
+       }
+       .navbar
+       {
+        display: inline-block;
+       }
+
+    .navbar li
+     {
+        display: inline-block;
+        font-size: 25px;
+            margin-right: 15px;
+
+     }
+     .navbar li a 
+     {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+     }
+    .navbar li a:hover
+     {
+        text-decoration: underline;
+        color: red;
+     }
+     .btn 
+     {
+        font-family: 'Baloo Bhai', cursive;
+        font-weight: bold;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .btn:hover
+    {
+        background-color: red;
+    }
+    h5 
+    {
+        text-align: center;
+        text-decoration: bold;
+        font-style: italic;
+        margin-top: 120px;
+        font-size: 35px;
+    }
+    .container
+    {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+    .form-group select
+    {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+    .container button
+    {
+        width: 83%;
+        margin-left: 53px;
+    }
+    .container h1
+    {
+        text-align: center;
+        font-style: italic;
+        font-size: 18px;
+        color: white;
+        font-weight: bold;
+    }
+    </style>
+</head>
+
+
+
+<body>
+   <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA22x1rjIGpVyAj2cYkmzQF4XqX9pBNUipnA&usqp=CAU">
+            <div>Kanchan quotes centre</div>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+           <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <h5>Welcome to my quotes centre</h5>
+    <div class="container">
+        <h1>For 10 days free trial, provide your information here</h1>
+        <form >
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <select>
+                    <option value="0" selected disabled>Gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Contact Number">
+            </div>
+            <div class="form-group">
+                <select>
+                    <option value="0" selected disabled>Which type of quotes you want</option>
+                    <option>Success quotes</option>
+                    <option>Inspirational quotes</option>
+                    <option>Love quotes</option>
+                    <option>Comedy quotes</option>
+                    <option>Emotional quotes</option>
+                    <option>Other</option>
+                </select>
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
