@@ -13,21 +13,21 @@
           /*  border: 2px solid red;*/
             position: absolute;
             left: 34px;
-            top: 31px;
+            top: 51px;
  
         }
-        .left img
-        {
-        width: 150px;
-        height: 110px;
+        .left img {
+    width: 150;
+    height: 110px;
+    margin: 0px 0px;
+}
 
-        }
-        .left div 
-        {
-        line-height: 19px;
-        font-size: 26px;
-        text-align: center;
-        }
+      .left div {
+    line-height: 19px;
+    font-size: 27px;
+    padding: 20px 0px;
+    text-align: center;
+}
         .mid 
         {
             display: block;
@@ -54,7 +54,7 @@
      {
         display: inline-block;
         font-size: 25px;
-            margin-right: 15px;
+        margin-right: 35px;
 
      }
      .navbar li a 
