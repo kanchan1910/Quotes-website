@@ -102,7 +102,7 @@ h4
     text-decoration: bold;
     font-style: italic;
     margin-top: 120px;
-    font-size: 40px;
+    font-size: 55px;
 }
 .container
 {
@@ -136,19 +136,20 @@ h4
     margin: 11px auto;
     font-size: 25px;
     border-radius: 8px;
+    padding-left: 16%;
 }
 
 .container button
 {
-    width: 96%;
-    margin: auto;
     display: block;
+    width: 83%;
+    margin: auto;
 }
 .container h2
 {
     text-align: center;
     font-style: italic;
-    font-size: 28px;
+    font-size: 30px;
     color: white;
     font-weight: bold;
 }
