@@ -42,7 +42,7 @@ body
 {
     display: inline-block;
     margin-top: 25px;
-    margin-left: 520px;
+    margin-left: 620px;
 }
 
 .right 
@@ -61,7 +61,7 @@ body
 .navbar li
 {
     display: inline-block;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .navbar li a 
@@ -135,7 +135,7 @@ h4
     border: 2px solid black;
     margin: 11px auto;
     font-size: 25px;
-     border-radius: 8px;
+    border-radius: 8px;
 }
 
 .container button
