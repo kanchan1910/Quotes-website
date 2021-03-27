@@ -1,0 +1,154 @@
+body
+{      
+    /*resetting CSS*/
+    margin: 0px;
+    padding: 0px;  
+    /*Adding background image*/
+    background: url("https://i.ytimg.com/vi/mGx_FATyasQ/maxresdefault.jpg");
+    /* stops image from repeating*/
+    background-repeat: no-repeat;
+    /*fits background image completely*/ 
+    background-size: cover;  
+    /*setting content color of the body to be white*/   
+    color: white;
+}
+
+.left
+{    
+    /* by-default it is block element so its display is changed to inline-block*/
+    display: inline-block;
+    /*will take position relative to its parent(in this case its header)*/
+    position: absolute;
+    left: 34px;
+    top: 30px;
+ 
+}
+.left img
+{
+    width: 150;
+    height: 110px;
+}
+
+.left div 
+{
+    /*sets the difference between the line just above it*/
+    line-height: 19px;
+    font-size: 23px;
+    padding: 20px 0px;
+    font-weight: bold;
+    text-align: center;
+}
+.mid 
+{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 520px;
+}
+
+.right 
+{
+    position: absolute;
+    right: 34px;
+    top: 30px;
+    display: inline-block;
+
+}
+.navbar
+{
+    display: inline-block;
+}
+
+.navbar li
+{
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a 
+{
+    color: white;
+    font-weight: bold;
+    /* remove the underline*/
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover
+{
+    text-decoration: underline;
+    color: red;
+}
+.btn 
+{
+    font-family: 'Baloo Bhai', cursive;
+    font-weight: bold;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover
+{
+    background-color: red;
+    text-decoration: underline;
+}
+h4 
+{
+    /*align text to the center*/
+    text-align: center;
+    text-decoration: bold;
+    font-style: italic;
+    margin-top: 120px;
+    font-size: 40px;
+}
+.container
+{
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+.form-group input 
+{
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.form-group select
+{
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+     border-radius: 8px;
+}
+
+.container button
+{
+    width: 96%;
+    margin: auto;
+    display: block;
+}
+.container h2
+{
+    text-align: center;
+    font-style: italic;
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+}
